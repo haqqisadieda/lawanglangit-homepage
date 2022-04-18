@@ -1,9 +1,14 @@
 import Layout from '../components/Layout';
 
+import Head from 'next/head';
+
 export default function About() {
     const navlist = 1;
     return (
         <Layout navlist={navlist}>
+            <Head>
+                <title>About</title>
+            </Head>
             <div class='flex items-center justify-center w-full h-full'>
                 <div class='px-4 lg:py-12'>
                     <div class='lg:gap-4 lg:flex'>

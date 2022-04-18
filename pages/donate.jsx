@@ -1,8 +1,12 @@
 import Layout from '../components/Layout';
+import Head from 'next/head';
 
 export default function Donate() {
     return (
         <Layout>
+            <Head>
+                <title>Donate</title>
+            </Head>
             <div class='flex items-center justify-center w-full h-full'>
                 <div class='px-4 lg:py-12'>
                     <div class='lg:gap-4 lg:flex'>
