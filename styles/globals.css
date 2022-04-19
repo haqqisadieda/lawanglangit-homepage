@@ -8,6 +8,7 @@ body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -44,6 +45,10 @@ a {
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.react-parallax {
+    box-shadow: 20px 10px 12px rgba(0, 0, 0, 0.2);
 }
 
 .react-parallax-bgimage {
