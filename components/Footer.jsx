@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
     return (
-        <div className='flex mx-auto text-blue-400 p-20 border-4 border-blue-300 rounded-3xl'>
+        <div className='flex mx-auto text-blue-400 py-5 px-20 border-4 border-blue-300 rounded-3xl'>
             <div className='w-1/2 '>
                 <Link href='/'>
                     <a className='text-2xl tracking-widest font-semibold hover:drop-shadow-sm'>

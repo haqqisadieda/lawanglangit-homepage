@@ -17,7 +17,7 @@ import SliderTestimoni from '../components/SliderTestimoni';
 
 export default function Index() {
     const navlist = 0;
-    const img = '/img/home3.jpg';
+    const img = '/img/home3.png';
     return (
         <Layout navlist={navlist}>
             <Head>

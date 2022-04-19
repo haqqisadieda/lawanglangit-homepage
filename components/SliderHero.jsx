@@ -4,9 +4,9 @@ import { Pagination, EffectFade, Autoplay } from 'swiper';
 import 'swiper/css/bundle';
 
 export default function Slider() {
-    const img1 = '/img/home1.JPG';
-    const img2 = '/img/home3.jpg';
-    const img3 = '/img/home4.JPG';
+    const img1 = '/img/home1.png';
+    const img2 = '/img/home3.png';
+    const img3 = '/img/home4.png';
     const duration = 5000;
 
     useEffect(() => {
