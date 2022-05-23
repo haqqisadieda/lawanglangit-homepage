@@ -19,35 +19,6 @@ export default function MobileNavbar({ navlist, menuHandler, closeHandler }) {
                         className='inline-block fill-white cursor-pointer'
                         onClick={menuHandler.bind(this)}
                     />
-                    {/* <Link href='/'>
-                        <a
-                            className={`hover-underline-animation text-blue-100 font-semibold ${
-                                navlist === 0 ? 'navlist-active' : ''
-                            }`}>
-                            Home
-                        </a>
-                    </Link>
-                    <Link href='/about'>
-                        <a
-                            className={`hover-underline-animation text-blue-100 font-semibold ${
-                                navlist === 1 ? 'navlist-active' : ''
-                            }`}>
-                            About
-                        </a>
-                    </Link>
-                    <Link href='/program'>
-                        <a
-                            className={`hover-underline-animation text-blue-100 font-semibold ${
-                                navlist === 2 ? 'navlist-active' : ''
-                            }`}>
-                            Program
-                        </a>
-                    </Link>
-                    <Link href='/donate'>
-                        <a className='text-yellow-400 border-2 border-yellow-400 hover:text-blue-500 hover:border-transparent hover:bg-yellow-400 hover:shadow-lg hover:transition-all hover:duration-300 hover:ease-in rounded-full px-8 py-2 inline-block'>
-                            Donate Now!
-                        </a>
-                    </Link> */}
                 </div>
                 <div className='fixed bg-blue-400 z-10 -right-full top-0 h-full w-full transition-all ease-in-out wrapper'>
                     <img
