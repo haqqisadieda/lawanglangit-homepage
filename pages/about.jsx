@@ -9,7 +9,7 @@ export default function About() {
             <Head>
                 <title>About</title>
             </Head>
-            <div class='flex items-center justify-center w-full h-full'>
+            <div className='flex items-center justify-center w-full h-full'>
                 <PageNotFound />
             </div>
         </Layout>

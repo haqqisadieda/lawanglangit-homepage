@@ -8,7 +8,7 @@ export default function Donate() {
             <Head>
                 <title>Donate</title>
             </Head>
-            <div class='flex items-center justify-center w-full h-full'>
+            <div className='flex items-center justify-center w-full h-full'>
                 <PageNotFound />
             </div>
         </Layout>
