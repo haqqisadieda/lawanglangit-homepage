@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
 import Link from 'next/link';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default function MobileNavbar({ navlist, menuHandler, closeHandler }) {
     return (
         <div className='inline md:hidden  header min-w-full bg-blue-400'>
-            <div className='flex mx-auto px-6 py-4 md:px-10 md:py-4 lg:px-32 lg:py-6'>
+            <div className='flex mx-auto px-10 py-4 md:px-10 md:py-4 lg:px-32 lg:py-6'>
                 <div className='w-full md:w-3/12 m-auto text-xl lg:text-2xl text-blue-100 tracking-widest font-semibold'>
                     <Link href='/'>
                         <a className='hover:drop-shadow-sm hover:text-white'>
@@ -13,18 +14,14 @@ export default function MobileNavbar({ navlist, menuHandler, closeHandler }) {
                     </Link>
                 </div>
                 <div className='w-9/12 m-auto text-right'>
-                    <img
-                        src='/img/menu.svg'
-                        alt=''
-                        className='inline-block fill-white cursor-pointer'
+                    <FaBars
+                        className='inline-block fill-white cursor-pointer w-6 h-6'
                         onClick={menuHandler.bind(this)}
                     />
                 </div>
-                <div className='fixed bg-blue-400 z-10 -right-full top-0 h-full w-full transition-all ease-in-out wrapper'>
-                    <img
-                        src='/img/x.svg'
-                        alt=''
-                        className='absolute top-8 right-8 w-8 cursor-pointer close'
+                <div className='fixed bg-blue-400 z-10 -right-full top-0 h-full w-full py-10 transition-all ease-in-out wrapper'>
+                    <FaTimes
+                        className='absolute top-16 left-[50%] translate-x-[-50%] fill-white cursor-pointer close w-8 h-8'
                         onClick={closeHandler.bind(this)}
                     />
                     <div className='flex flex-col text-lg font-semibold tracking-wider text-center p-32 space-y-10'>
